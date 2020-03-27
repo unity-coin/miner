@@ -1,5 +1,11 @@
 language: bash
 
+arch:
+  - amd64
+  - arm64
+  - ppc64le
+  - s390x
+
 before_install:
   - sudo apt-get -y install wget tar
 
